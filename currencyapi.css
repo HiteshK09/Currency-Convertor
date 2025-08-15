@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-image:url("currencybg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color:burlywood;
+    font-size:30px;
+}
+
+.container{
+    
+    background:rgba(0,0,0,0.5);
+    color:white;
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+    border:2px solid black;
+    border-radius:2rem;
+    box-shadow:black;
+    padding:2rem;
+    margin:2rem;
+    height:80vh;
+    width:80vh;
+}
+
+form{
+    margin:2rem 0 1rem 0;
+}
+
+form input,select,button{
+    width:100%;
+    border:none;
+    outline:none;
+    border-radius:0.27rem;
+}
+
+form select{
+height: 2rem
+}
+
+form input{
+    border: 1px solid black;
+    font-size: 1rem;
+    height:3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:2rem 0 1rem 0;
+}
+
+.dropdown p{
+    font-size:2rem;
+}
+
+.msg{
+    margin:1rem 0 1rem 0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+}
+
+.select-container{
+    width:12rem;
+    height:7rem;
+    display:flex;
+    justify-content: center;
+    border-radius:0.5rem;
+    align-items:center;
+    border:1px solid black;
+}
+
+.select-container img{
+    width: 15rem;
+}
+
+.dropdown i{
+    font-size:2rem;
+}
+
+form button{
+    background-color:#007BFF;
+    border:1px solid black;
+    height:2rem;
+    cursor:pointer;
+}
+
+.amount p{
+    font-size:1.5rem;
+}
